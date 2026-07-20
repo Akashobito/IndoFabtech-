@@ -8,15 +8,17 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Service from "./Components/Service";
 import Contact from "./Components/Contact";
+import Projects from "./Components/Projects";
 
 function App() {
 
   return (
     <>
-      <NavBar></NavBar>
+      {/* <NavBar></NavBar> */}
       <Home />
-      <About />
+      <Projects />
       <Service />
+      <About />
       <Contact />
     </>
   );

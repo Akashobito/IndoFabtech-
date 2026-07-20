@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource-variable/montserrat": "^5.2.8",
     "@fontsource-variable/roboto": "^5.2.10",
+    "@fontsource-variable/sora": "^5.2.8",
     "@fontsource/bebas-neue": "^5.2.7",
     "@tailwindcss/vite": "^4.3.2",
     "react": "^19.2.7",
