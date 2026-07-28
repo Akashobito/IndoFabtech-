@@ -9,17 +9,21 @@ import About from "./Components/About";
 import Service from "./Components/Service";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
+import GmailModel from "./Components/GmailModel";
 
 function App() {
+  const[contact,setContact] = useState(false);
 
   return (
     <>
       {/* <NavBar></NavBar> */}
-      <Home />
+      <Home contact={contact} setContact={setContact}/>
       <Projects />
       <Service />
       <About />
       <Contact />
+      {contact && <GmailModel contact={contact} setContact={setContact}/>}
+      
     </>
   );
 }

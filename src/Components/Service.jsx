@@ -2,8 +2,8 @@ import React from "react";
 
 function Service() {
   return (
-    <div className="font-Roboto flex flex-col justify-center items-center relative">
-      <div className="service-div relative z-10 w-full h-63 lg:h-130 flex flex-col justify-center items-center backdrop-blur-[1px] backdrop-brightness-70 backdrop-grayscale-100">
+    <div id="service" className="font-Roboto flex flex-col justify-center items-center relative">
+      <div className="service-div relative z-10 w-full h-63 lg:h-130 flex flex-col justify-center items-center backdrop-brightness-70 backdrop-grayscale-100">
         <div className="flex flex-col font-CopperPlate justify-center items-center">
           <p className="text-xl text-white uppercase lg:text-4xl">Services</p>
           <span className="w-40 lg:w-65 bg-[#fed550] h-[2px] lg:h-[6px]"></span>
@@ -36,7 +36,7 @@ function Service() {
           </div>
         </div>
 
-        <img className="absolute left-100" src="/src/assets/what we do.jpg"/>
+        <img className="hidden lg:block absolute left-100" src="/src/assets/what we do.jpg"/>
       </div>
     </div>
   );
