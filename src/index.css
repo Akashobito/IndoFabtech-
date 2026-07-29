@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+html {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.show {
+  box-shadow: 5px 5px 30px rgb(0,0,0);
+}
+
+
+@theme {
+  --font-Montserrate: "Roboto Variable", sans-serif;
+  --font-Roboto: 'Roboto Variable', sans-serif;
+  --font-Bebas: 'Bebas Neue', sans-serif;
+  --font-Sora: 'Sora Variable', sans-serif;
+  --font-CopperPlate: 'Copperplate Gothic Std', sans-serif; 
+}
+
+
+@layer components {
+  .unique {
+    @apply px-5 py-2 rounded-2xl border-2
+  }
+
+  .line::after {
+    content: '---';
+    color: yellow;
+    font-weight: bold;
+    padding-left: 5px;
+  }
+
+  .line::before {
+    content: '---';
+    color: yellow;
+    font-weight: bold;
+    padding-right: 5px;
+  }
+}
