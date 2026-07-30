@@ -1,4 +1,6 @@
 import React from "react";
+import contactBackground from "../assets/logo.png"
+import logo from "../assets/contacts.jpg";
 
 function Contact() {
   return (
@@ -7,7 +9,7 @@ function Contact() {
       <div className="w-full flex flex-col lg:flex-row lg:justify-around justify-center items-center space-y-3 relative z-10 h-full backdrop-brightness-40 backdrop-grayscale-50 lg:text-xl">
 
         <div className="hidden lg:flex justify-center items-center space-x-3">
-          <img className="w-32 h-32 object-contain" src="/src/assets/logo.png"></img>
+          <img className="w-32 h-32 object-contain" src={contactBackground}></img>
           <p className="font-CopperPlate text-4xl uppercase">INDOFAB <br></br>Tech</p>
         </div>
 
@@ -42,7 +44,7 @@ function Contact() {
 
       <img
         className="absolute h-full lg:w-full lg:object-[center_20%] object-cover"
-        src="/src/assets/contacts.jpg"
+        src={logo}
       ></img>
     </div>
   );

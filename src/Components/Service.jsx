@@ -1,4 +1,6 @@
 import React from "react";
+import serviceBackground from "../assets/service.jpg";
+import whatwedoBackground from "../assets/what we do.jpg"
 
 function Service() {
   return (
@@ -15,7 +17,7 @@ function Service() {
       </div>
       <img
         className="absolute h-60 top-0 w-full left-0 z-0 lg:h-130 lg:object-[center_30%] lg:object-cover"
-        src="/src/assets/service.jpg"
+        src={serviceBackground}
       ></img>
 
       <div className="h-60 lg:h-130 flex flex-col justify-center items-center space-y-5 relative">
@@ -36,7 +38,7 @@ function Service() {
           </div>
         </div>
 
-        <img className="hidden lg:block absolute left-100" src="/src/assets/what we do.jpg"/>
+        <img className="hidden lg:block absolute left-100" src={whatwedoBackground}/>
       </div>
     </div>
   );

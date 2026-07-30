@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import companyLogo from "../assets/logo.png";
+import menuBackground from "../assets/menu.jpg";
 
 function NavBar({setContact,contact}) {
   const [enableMenu, setEnableMenu] = useState(false);
@@ -13,7 +15,7 @@ function NavBar({setContact,contact}) {
               setCurrentMenu("home");
             }}>
         <div className="logo pt-2 h-8 w-8 lg:p-0 lg:w-10 lg:h-10 cursor-pointer">
-          <img className="object-cover" src="/src/assets/logo.png"></img>
+          <img className="object-cover" src={companyLogo}></img>
         </div>
       </a>
 
@@ -168,7 +170,7 @@ function NavBar({setContact,contact}) {
           </div>
           <img
             className="absolute top-50 left-0 z-0 w-full h-full object-cover"
-            src="/src/assets/menu.jpg"
+            src={menuBackground}
           ></img>
         </div>
       )}

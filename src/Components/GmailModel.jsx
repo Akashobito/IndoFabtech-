@@ -119,7 +119,7 @@ function GmailModel({ contact, setContact }) {
 
           <img
             className="absolute z-0 top-0 object-cover object-[center_10%]"
-            src="/src/assets/gmailmodelbg.jpg"
+            src="src/assets/gmailmodelbg.jpg"
           ></img>
         </form>
         <div

@@ -4,6 +4,7 @@ import "@fontsource-variable/roboto/wght.css";
 import "@fontsource/bebas-neue";
 import "@fontsource-variable/sora/wght.css";
 import NavBar from "./NavBar";
+import homeBackground from "../assets/bg2.jpg";
 
 function Home({setContact,contact}) {
   return (
@@ -26,7 +27,7 @@ function Home({setContact,contact}) {
 
         <img
           className="absolute top-0 z-0 w-full h-70 object-cover lg:h-190"
-          src="/src/assets/bg2.jpg"
+          src={homeBackground}
         ></img>
       </div>
     </div>

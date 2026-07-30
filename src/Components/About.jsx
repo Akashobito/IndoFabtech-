@@ -1,4 +1,6 @@
 import React from "react";
+import aboutBackground from "../assets/about.jpg";
+import visionMissionBackground from "../assets/missionbg.png";
 
 function About() {
   return (
@@ -17,7 +19,7 @@ function About() {
 
         <img
           className="absolute w-full h-60 top-0 z-0 lg:h-130 object-cover"
-          src="/src/assets/about.jpg"
+          src={aboutBackground}
         />
       </div>
 
@@ -31,7 +33,7 @@ function About() {
             <span className="w-10 bg-[#fed550] h-[2px] lg:h-[4px]"></span>
             <img
               className="w-140 h-140 object-cover top-[-70px] absolute left-15 hidden lg:block"
-              src="/src/assets/missionbg.png"
+              src={visionMissionBackground}
             />
           </div>
 
