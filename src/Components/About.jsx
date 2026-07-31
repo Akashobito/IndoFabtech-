@@ -5,7 +5,7 @@ import visionMissionBackground from "../assets/missionbg.png";
 function About() {
   return (
     <div id="about" className="pb-10">
-      <div className="h-60 flex flex-col justify-center items-center relative lg:h-130">
+      <div className="h-60 flex flex-col justify-center items-center relative lg:h-130 font-Roboto">
         <div className="h-60 w-full flex flex-col justify-center items-center relative z-10 text-white backdrop-brightness-70 backdrop-grayscale-100 lg:h-190">
           <p className="font-CopperPlate text-[20px] uppercase tracking-tighter lg:text-4xl">
             About us

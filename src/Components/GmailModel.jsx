@@ -7,6 +7,7 @@ import { DevTool } from "@hookform/devtools";
 import { number, object, ref, string } from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import dayjs from "dayjs";
+import gmailModel from "../assets/gmailmodelbg.jpg";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDiNJ6x7xRH6ZxmBi5L4Q5jpHpGPgRml4A",
@@ -119,7 +120,7 @@ function GmailModel({ contact, setContact }) {
 
           <img
             className="absolute z-0 top-0 object-cover object-[center_10%]"
-            src="src/assets/gmailmodelbg.jpg"
+            src={gmailModel}
           ></img>
         </form>
         <div

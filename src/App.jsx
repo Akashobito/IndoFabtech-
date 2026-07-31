@@ -10,6 +10,7 @@ import Service from "./Components/Service";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
 import GmailModel from "./Components/GmailModel";
+import ProjectViewModel from "./Components/ProjectViewModel";
 
 function App() {
   const[contact,setContact] = useState(false);
@@ -19,6 +20,7 @@ function App() {
       {/* <NavBar></NavBar> */}
       <Home contact={contact} setContact={setContact}/>
       <Projects />
+      {/* <ProjectViewModel /> */}
       <Service />
       <About />
       <Contact />
